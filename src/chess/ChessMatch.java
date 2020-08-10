@@ -10,7 +10,7 @@ public class ChessMatch {
 
 	public ChessMatch() {
 		board = new Board(8, 8);
-		InitialSetup();
+		InitialSetup	();
 	}
 
 	public ChessPiece[][] getPieces() {
